@@ -18,14 +18,19 @@ class MainActivity2 : AppCompatActivity() {
         btn.setOnClickListener {
             val Intent = Intent(this, MainActivity3::class.java)
             startActivity(Intent)
-            btn2.setOnClickListener {
-                val Intent = Intent(this, MainActivity4::class.java)
-                startActivity(Intent)
-                btn3.setOnClickListener {
-                    val Intent = Intent(this, MainActivity5::class.java)
-                    startActivity(Intent)
-                }
-            }
+
+
+
+        }
+
+        btn2.setOnClickListener {
+            val Intent = Intent(this, MainActivity4::class.java)
+            startActivity(Intent)
+        }
+
+        btn3.setOnClickListener {
+            val Intent = Intent(this, MainActivity5::class.java)
+            startActivity(Intent)
         }
     }
 }
